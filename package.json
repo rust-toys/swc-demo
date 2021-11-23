@@ -1,0 +1,18 @@
+{
+  "name": "swc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx swc src/index.js -d dist",
+    "debug": "node --inspect-brk=8083 ./node_modules/.bin/swc src/index.ts -d dist",
+    "build": "npx spack"
+  },
+  "keywords": [],
+  "author": "liuqh",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.51",
+    "@swc/core": "^1.2.111"
+  }
+}
