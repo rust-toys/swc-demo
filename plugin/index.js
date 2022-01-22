@@ -43,4 +43,4 @@ if (foo) {
 console.log(out.code);
 
 module.exports = ConsoleStripper;
-d;
+
